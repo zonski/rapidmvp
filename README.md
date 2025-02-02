@@ -28,14 +28,14 @@
 * Clone the repository locally
 * In the project root directory setup a "venv" `python3 venv .venv`
 * Activate the venv with `souce .venv/bin/activate`
-* Install the project dependencies `pip install -r requirements.txt
+* Install the project dependencies `pip install -r requirements.txt`
 
 ### Setup the config parameters
 
-* Copy .env.sample to .env.local
-* Check the DB_ settings match what you created in the database setup
-* Update the Auth0 settings with the values from your App that you created in the Auth0 setup
-* The APP_SECRET is a random string of characters that is used to encrypt the session cookie. You can generate one with `openssl rand -hex 32`
+* Copy `.env.sample` to `.env`
+* Check the `DB_` settings match what you created in the database setup
+* Update the `AUTH0_` settings with the values from your App that you created in the Auth0 setup
+* The `APP_SECRET_KEY` is a random string of characters that is used to encrypt the session cookie. You can generate one with `openssl rand -hex 32`
 
 ### Run the database migration scripts 
 
